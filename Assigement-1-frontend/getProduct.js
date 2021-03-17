@@ -12,7 +12,7 @@
     const adressValidation = document.getElementById('adressValidation')
     const phoneValidation = document.getElementById('phoneValidation')
 
-    fetch(`https://fakestoreapi.com/products/${id}`)    //Get a product by Id
+    fetch(`https://webacademy.se/fakestore/${id}`)    //Get a product by Id
 
         .then(res => res.json())
         .then((product) => {

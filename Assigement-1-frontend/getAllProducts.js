@@ -1,7 +1,7 @@
 (function ()
      {
 
-    fetch('https://fakestoreapi.com/products') //Get all products by fetch
+    fetch('https://webacademy.se/fakestore/') //Get all products by fetch
 
         .then(res => res.json())
         .then((data) => {
@@ -19,7 +19,7 @@
 
                   <div>${product.description}</div>
                   
-                  <a id="Köp" class="button" role="button" href="/product.html?id=${product.id}">Välj produkten</a>
+                  <a id="Köp" class="button" role="button" href="/buyIndex.html?id=${product.id}">Välj produkten</a>
                 `
             });
             //Here is a description of all the products in the app element
